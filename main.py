@@ -3,10 +3,6 @@ import numpy as np
 import pandas as pd
 import pickle
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report
-from os import times
 
 df=pd.read_csv("Breast_cancer_data.csv")
 st.title("Breast Detection ML model")
